@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="金华模板同款结构：一天一出门，下午回酒店睡觉。" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="南昌国庆亲子方案" />
+<meta property="og:description" content="金华模板同款结构：一天一出门，下午回酒店睡觉。" />
+<meta property="og:url" content="https://zizhegao.github.io/nd2026-share/nanchang/" />
+<meta property="og:image" content="https://zizhegao.github.io/nd2026-share/nanchang/img/001-cover.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="南昌国庆亲子方案" />
+<meta name="twitter:description" content="金华模板同款结构：一天一出门，下午回酒店睡觉。" />
+<meta name="twitter:image" content="https://zizhegao.github.io/nd2026-share/nanchang/img/001-cover.jpg" />
+
+<title>南昌国庆亲子方案 · 9/30–10/3</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0b1120; --body:#334155; --muted:#64748b; --line:#e2e8f0;
+  --bg:#f6f7fb; --card:#fff;
+  --teal:#0d9488; --cyan:#06b6d4; --lime:#65a30d; --rose:#e11d48; --amber:#d97706; --violet:#7c3aed;
+  --r:20px; --shadow:0 10px 30px -18px rgba(15,23,42,.35);
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Noto Sans SC",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:var(--bg);color:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased;padding-bottom:70px
+}
+.wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+a{color:var(--teal)}
+
+/* hero */
+.hero{
+  position:relative;overflow:hidden;color:#e2e8f0;padding:56px 0 40px;
+  background:
+    radial-gradient(900px 420px at 12% -10%, rgba(34,211,238,.35), transparent 60%),
+    radial-gradient(700px 380px at 92% 0%, rgba(132,204,22,.28), transparent 60%),
+    linear-gradient(140deg,#0b1120 0%,#12303d 48%,#0f766e 100%)
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;mix-blend-mode:screen;
+  background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px);background-size:18px 18px
+}
+.kicker{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#7dd3fc;font-weight:600}
+.hero h1{font-size:clamp(30px,5.2vw,50px);line-height:1.1;letter-spacing:-.03em;margin:12px 0 10px;color:#fff;font-weight:800}
+.hero h1 em{
+  font-style:normal;background:linear-gradient(92deg,#5eead4,#a3e635 55%,#fde047);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent
+}
+.hero p.sub{max-width:680px;color:#cbd5e1;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chip{
+  font-size:12.5px;padding:6px 13px;border-radius:999px;font-weight:500;backdrop-filter:blur(6px);
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#e2e8f0
+}
+.chip.hot{background:rgba(163,230,53,.16);border-color:rgba(163,230,53,.45);color:#d9f99d}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:26px}
+.stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:13px 15px}
+.stat b{display:block;font-size:22px;color:#fff;letter-spacing:-.02em}
+.stat span{font-size:11.5px;color:#94a3b8}
+.tldr{
+  margin-top:24px;padding:18px 20px;border-radius:16px;background:rgba(255,255,255,.95);color:var(--ink);
+  box-shadow:var(--shadow);border-left:5px solid var(--lime);font-size:14.5px
+}
+.tldr b{color:var(--teal)}
+
+/* nav */
+nav.bar{position:sticky;top:0;z-index:40;background:rgba(246,247,251,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav.bar ul{display:flex;gap:6px;list-style:none;overflow-x:auto;padding:10px 0;scrollbar-width:none}
+nav.bar ul::-webkit-scrollbar{display:none}
+nav.bar a{display:block;white-space:nowrap;font-size:13px;padding:6px 13px;border-radius:999px;color:var(--body);text-decoration:none;border:1px solid transparent}
+nav.bar a:hover{background:#fff;border-color:var(--line);color:var(--ink)}
+
+/* sections */
+section.blk{padding:44px 0 4px}
+.h2{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.h2 .num{
+  font-size:12px;font-weight:700;width:26px;height:26px;border-radius:9px;display:grid;place-items:center;flex:0 0 26px;
+  background:linear-gradient(140deg,var(--teal),var(--cyan));color:#fff
+}
+.h2 h2{font-size:clamp(20px,3vw,26px);color:var(--ink);letter-spacing:-.02em}
+.lead{color:var(--muted);font-size:14px;max-width:780px;margin-bottom:18px}
+
+/* flow */
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.fnode{position:relative;border-radius:var(--r);padding:16px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);overflow:hidden}
+.fnode::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--cyan)}
+.fnode.n2::before{background:var(--lime)}
+.fnode.n3::before{background:var(--violet)}
+.fnode.n4::before{background:var(--amber)}
+.fnode .fd{font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;font-weight:600}
+.fnode h4{font-size:15.5px;color:var(--ink);margin:6px 0 8px}
+.fnode ul{list-style:none;font-size:12.5px;color:var(--body)}
+.fnode li{padding-left:14px;position:relative;margin:4px 0}
+.fnode li::before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:var(--teal)}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:14px}
+.rule{background:#fff;border:1px dashed #cbd5e1;border-radius:14px;padding:12px 14px}
+.rule b{display:block;font-size:13.5px;color:var(--ink);margin-bottom:2px}
+.rule span{font-size:12.5px;color:var(--muted)}
+
+/* metro spine */
+.spine{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:20px;margin-bottom:18px;overflow-x:auto}
+.spine h4{font-size:14px;color:var(--ink);margin-bottom:4px}
+.spine p{font-size:12.5px;color:var(--muted);margin-bottom:16px}
+.line1{display:flex;align-items:flex-start;min-width:680px;position:relative;padding-top:8px}
+.line1::before{content:"";position:absolute;left:14px;right:14px;top:14px;height:4px;border-radius:2px;background:linear-gradient(90deg,#e11d48,#f43f5e)}
+.stop{flex:1;position:relative;text-align:center;padding-top:22px}
+.stop::before{
+  content:"";position:absolute;top:8px;left:50%;transform:translateX(-50%);width:15px;height:15px;border-radius:50%;
+  background:#fff;border:3px solid #fda4af;z-index:2
+}
+.stop.on::before{border-color:#e11d48;width:19px;height:19px;top:6px}
+.stop b{display:block;font-size:12px;color:var(--muted);font-weight:600}
+.stop.on b{color:var(--ink);font-size:12.5px}
+.stop span{display:block;font-size:10.5px;color:#94a3b8;margin-top:2px;line-height:1.35}
+.stop.on span{color:var(--teal);font-weight:600}
+.stop.hotel::before{border-color:var(--teal);background:#ccfbf1}
+.river{flex:0 0 40px;position:relative;padding-top:22px;text-align:center}
+.river::before{
+  content:"赣江";position:absolute;top:2px;left:50%;transform:translateX(-50%);
+  font-size:9.5px;color:#0284c7;background:#e0f2fe;border:1px solid #7dd3fc;border-radius:5px;padding:1px 5px;z-index:3;white-space:nowrap
+}
+
+/* day */
+.day{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:20px;margin-top:16px}
+.day-head{display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.day-id .dl{
+  display:block;font-size:13px;font-weight:700;color:#fff;padding:4px 12px;border-radius:999px;letter-spacing:.04em;
+  background:linear-gradient(140deg,var(--ink),#155e75)
+}
+.day-id .dd{display:block;text-align:center;font-size:11.5px;color:var(--muted);margin-top:5px}
+.day-txt{flex:1;min-width:220px}
+.day-txt h3{font-size:18px;color:var(--ink);letter-spacing:-.01em}
+.day-txt p{font-size:13.5px;color:var(--muted);margin-top:4px}
+.day-budget{font-size:12px;padding:5px 11px;border-radius:999px;background:#ecfeff;color:#0e7490;border:1px solid #a5f3fc;white-space:nowrap}
+.tl{list-style:none;margin-top:6px}
+.ev{display:grid;grid-template-columns:30px 86px 1fr;gap:10px;padding:14px 0;border-bottom:1px solid #f1f5f9}
+.ev:last-child{border-bottom:0}
+.ev .dot{width:28px;height:28px;border-radius:10px;display:grid;place-items:center;font-size:14px;background:#f1f5f9;border:1px solid var(--line)}
+.ev-time{font-size:13.5px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;padding-top:4px}
+.ev-title{font-size:15px;color:var(--ink);font-weight:600}
+.ev-detail{font-size:13.5px;color:var(--muted);margin-top:3px}
+.kind-nap .dot{background:#eef2ff;border-color:#c7d2fe}
+.kind-nap .ev-time{color:var(--violet)}
+.kind-eat .dot{background:#fff7ed;border-color:#fed7aa}
+.kind-eat .ev-time{color:var(--amber)}
+.kind-drive .dot{background:#ecfeff;border-color:#a5f3fc}
+.kind-fly .dot{background:#eff6ff;border-color:#bfdbfe}
+.kind-fly .ev-time{color:#1d4ed8}
+.kind-play .dot{background:#f7fee7;border-color:#d9f99d}
+.kind-decide .dot{background:#fff1f2;border-color:#fecdd3}
+.kind-decide .ev-time{color:var(--rose)}
+.planb{
+  margin-top:8px;font-size:12.5px;color:#475569;background:#f8fafc;border:1px solid var(--line);
+  border-left:3px solid var(--cyan);border-radius:10px;padding:9px 12px
+}
+.planb span{display:block;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);font-weight:700;margin-bottom:2px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:4px}
+.legend i{font-style:normal;font-size:12px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+
+/* inline spot inside a day */
+.spot{margin-top:18px;padding-top:18px;border-top:1px dashed #cbd5e1}
+.spot-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.spot-head h4{font-size:17px;color:var(--ink);letter-spacing:-.01em}
+.tag{display:inline-block;font-size:11.5px;padding:3px 10px;border-radius:7px;font-weight:600}
+.tag.keep{background:#dcfce7;color:#15803d}
+.tag.soft{background:#e0f2fe;color:#0369a1}
+.tag.alt{background:#f1f5f9;color:#475569}
+.pick-why{font-size:13px;color:var(--ink);background:#f8fafc;border-left:3px solid var(--lime);border-radius:8px;padding:8px 12px;margin-bottom:8px}
+.why{font-size:13.5px;color:var(--body)}
+.notes{list-style:none;margin:10px 0 12px}
+.notes li{font-size:13px;color:var(--body);padding-left:18px;position:relative;margin:5px 0}
+.notes li::before{content:"✓";position:absolute;left:0;color:var(--lime);font-weight:700}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;background:#e2e8f0;border-radius:12px;overflow:hidden}
+.shot{position:relative;margin:0;cursor:zoom-in;overflow:hidden;background:#e2e8f0}
+.shot img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.shot:hover img{transform:scale(1.06)}
+.shot .zoom{
+  position:absolute;top:8px;right:8px;width:24px;height:24px;border-radius:8px;display:grid;place-items:center;
+  font-size:12px;color:#fff;background:rgba(15,23,42,.45);backdrop-filter:blur(4px);opacity:0;transition:opacity .2s
+}
+.shot:hover .zoom{opacity:1}
+.shot figcaption{
+  position:absolute;inset:auto 0 0 0;padding:16px 8px 7px;font-size:10.5px;color:#fff;display:flex;gap:6px;align-items:flex-end;
+  background:linear-gradient(transparent,rgba(2,6,23,.82));opacity:0;transform:translateY(6px);transition:all .25s
+}
+.shot:hover figcaption{opacity:1;transform:none}
+.cap-t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:1.3}
+.cap-l{color:#fda4af;text-decoration:none;white-space:nowrap;font-weight:600}
+.xhs-btn{
+  display:inline-block;margin-top:12px;font-size:12.5px;text-decoration:none;font-weight:600;padding:8px 14px;border-radius:999px;
+  color:#be123c;background:#fff1f2;border:1px solid #fecdd3;transition:all .2s
+}
+.xhs-btn:hover{background:#ffe4e6;transform:translateY(-1px)}
+
+/* later cards + tables */
+.stack{display:flex;flex-direction:column;gap:18px;margin-top:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+.card .gallery{border-radius:0}
+.card .body{padding:18px 20px 20px}
+.name{font-size:17px;color:var(--ink);margin-bottom:6px}
+.line{font-size:13px;color:var(--body);margin-top:8px}
+.line b{color:var(--rose)}
+.soft-line b{color:var(--teal)}
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:#fff;box-shadow:var(--shadow);margin-bottom:18px}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:620px}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid #f1f5f9;vertical-align:top}
+th{background:#f8fafc;color:var(--muted);font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+tr:last-child td{border-bottom:0}
+td b{color:var(--ink)}
+td.win{font-weight:700;color:var(--lime)}
+td.lose{color:var(--muted)}
+.verdict-row td{background:#f7fee7}
+.vp{font-weight:700;white-space:nowrap}
+.vp.keep{color:var(--lime)}
+.vp.soft{color:var(--cyan)}
+.vp.pass{color:var(--rose)}
+.checks{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-top:6px}
+.chk{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;box-shadow:var(--shadow)}
+.chk label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
+.chk input{margin-top:4px;width:16px;height:16px;accent-color:var(--teal);flex:0 0 auto}
+.chk b{display:block;font-size:13.5px;color:var(--ink)}
+.chk span{font-size:12.5px;color:var(--muted)}
+.chk input:checked ~ div b,.chk input:checked ~ div span{text-decoration:line-through;opacity:.5}
+.foot{margin-top:38px;font-size:12px;color:#94a3b8;border-top:1px solid var(--line);padding-top:18px}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:80;display:none;place-items:center;background:rgba(2,6,23,.92);backdrop-filter:blur(10px);padding:26px}
+.lb.on{display:grid}
+.lb figure{max-width:min(92vw,900px);max-height:86vh;display:flex;flex-direction:column;gap:12px;align-items:center}
+.lb img{max-width:100%;max-height:74vh;border-radius:14px;box-shadow:0 30px 70px -30px rgba(0,0,0,.9);object-fit:contain}
+.lb figcaption{text-align:center;color:#e2e8f0;font-size:13.5px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:center}
+.lb figcaption a{color:#fda4af;font-weight:600;text-decoration:none;border:1px solid rgba(253,164,175,.4);padding:5px 12px;border-radius:999px}
+.lb-close,.lb-prev,.lb-next{
+  position:absolute;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff;
+  width:42px;height:42px;border-radius:50%;font-size:18px;cursor:pointer;display:grid;place-items:center
+}
+.lb-close{top:20px;right:20px}
+.lb-prev{left:18px;top:50%;transform:translateY(-50%)}
+.lb-next{right:18px;top:50%;transform:translateY(-50%)}
+.lb-close:hover,.lb-prev:hover,.lb-next:hover{background:rgba(255,255,255,.22)}
+.lb-count{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);color:#94a3b8;font-size:12px;letter-spacing:.1em}
+
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+@media (max-width:860px){.flow{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:760px){
+  .hero{padding:40px 0 32px}
+  .flow{grid-template-columns:1fr}
+  .gallery{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .shot:nth-child(n+4){display:none}
+  .ev{grid-template-columns:26px 68px 1fr;gap:8px}
+  .day{padding:16px}
+  .lb-prev{left:6px}.lb-next{right:6px}
+}
+</style>
+</head>
+<body>
+
+<style>
+.wx-hint{display:none;position:sticky;top:0;z-index:80;background:#111827;color:#f9fafb;
+  font-size:13px;padding:8px 14px;text-align:center}
+.wx-hint b{color:#a3e635}
+@media (max-width:760px){.wx-hint{display:block}}
+</style>
+<div class="wx-hint">手机上看：点右上角 <b>···</b> → 在默认浏览器打开，横滑和放大图更稳</div>
+
+
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">National Day 2026 · Hangzhou → Nanchang · 4D3N</div>
+    <h1>带 10 月龄的<em>第一次飞行</em><br />9/30 出发，四天三晚</h1>
+    <p class="sub">全程围着两件事排：11:00 辅食、15:00 在床上午睡。每天只出门一次，图片和点位介绍都放在它所属的那一天里。这一版按<b>距离</b>重排过：住红谷滩秋水广场，机场和省博都在同岸，四天只过赣江一次。</p>
+    <div class="chips">
+      <span class="chip hot">9/30 出发 · 10/3 返程</span>
+      <span class="chip">住红谷滩秋水广场 · 3 晚不换宿</span>
+      <span class="chip">全程只过江 1 次（2 站地铁）</span>
+      <span class="chip">10/1 室内 + 不过江</span>
+      <span class="chip">单程超 20 分钟的点一律不排</span>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>1 次</b><span>四天里过赣江的次数</span></div>
+      <div class="stat"><b>≈ 100 分钟</b><span>四天市内车程总和</span></div>
+      <div class="stat"><b>0 车程</b><span>Day 1 / Day 4 的活动点</span></div>
+      <div class="stat"><b>2 个</b><span>需要出门的正式点位</span></div>
+    </div>
+    <div class="tldr">
+      <b>四天骨架：</b>9/30 上午飞南昌，打车 30 分钟到红谷滩住下，傍晚就在酒店门口江边推车、隔江看滕王阁；10/1 全城峰值，只去同岸的<b>江西省博物馆</b>（免费、恒温、能推车），12 分钟车程，11:45 前回房；10/2 坐两站地铁过江去<b>万寿宫街区</b>，这是全程唯一一次过江，10:40 就回来，11:00 在房间吃辅食；10/3 上午还是门口江边，11:40 打车 30 分钟去昌北。每天 15:00 都在自己床上睡。
+    </div>
+  </div>
+</header>
+
+<nav class="bar">
+  <div class="wrap">
+    <ul>
+      <li><a href="#flow">四天总览</a></li>
+      <li><a href="#dist">距离账 · 为什么住红谷滩</a></li>
+      <li><a href="#day1">Day 1 · 飞入</a></li>
+      <li><a href="#day2">Day 2 · 省博</a></li>
+      <li><a href="#day3">Day 3 · 万寿宫</a></li>
+      <li><a href="#day4">Day 4 · 返程</a></li>
+      <li><a href="#later">留给下次</a></li>
+      <li><a href="#prep">出发前清单</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section class="blk" id="flow">
+    <div class="h2"><span class="num">01</span><h2>四天总览</h2></div>
+    <p class="lead">形状很简单：一天飞行、一天室内、一天过江、一天返程。中间两天的上午是唯一会「出门玩」的时间，其余时间都在酒店 200 米内。</p>
+    <div class="flow">
+      <div class="fnode n1 reveal">
+        <div class="fd">Day 1 · 9/30</div>
+        <h4>飞入 + 门口江边</h4>
+        <ul><li>10:00 起飞，空中约 1h</li><li>12:00 打车 30 分钟到店</li><li>15:00 床上午睡</li><li>16:45 江边推车（0 车程）</li></ul>
+      </div>
+      <div class="fnode n2 reveal">
+        <div class="fd">Day 2 · 10/1</div>
+        <h4>江西省博物馆（同岸）</h4>
+        <ul><li>提前 7 天、20:00 放票</li><li>08:30 打车 12 分钟</li><li>09:00 开馆即进</li><li>11:00 回房吃辅食</li></ul>
+      </div>
+      <div class="fnode n3 reveal">
+        <div class="fd">Day 3 · 10/2</div>
+        <h4>万寿宫 · 唯一一次过江</h4>
+        <ul><li>地铁 1 号线 2 站</li><li>09:00–10:40 走主街</li><li>10:40 原路两站回</li><li>11:00 房间辅食</li></ul>
+      </div>
+      <div class="fnode n4 reveal">
+        <div class="fd">Day 4 · 10/3</div>
+        <h4>松弛返程</h4>
+        <ul><li>09:00 门口江边 60 分钟</li><li>10:30 退房，11:00 辅食</li><li>11:40 打车 30 分钟去昌北</li><li>下午直飞回杭</li></ul>
+      </div>
+    </div>
+    <div class="rules"><div class="rule"><b>一天只出门一次</b><span>上午出、中午回，下午不二次出门。</span></div><div class="rule"><b>11:00 和 15:00 不可动</b><span>所有安排绕开这两格，而不是反过来。</span></div><div class="rule"><b>全程只过江一次</b><span>只有 10/2 去万寿宫过赣江，而且只坐两站地铁。</span></div><div class="rule"><b>单程超 20 分钟不排</b><span>艾溪湖、绳金塔、梅岭都是被这条筛掉的，不是不好看。</span></div></div>
+  </section>
+
+  <section class="blk" id="dist">
+    <div class="h2"><span class="num">02</span><h2>距离账：为什么住红谷滩秋水广场</h2></div>
+    <p class="lead">带 10 月龄出门，真正消耗人的不是玩，是路上。所以这一版先把地图摊开、把车程算完，再决定去哪几个点——住哪儿一旦定错，后面每天都要多花半小时在车里。</p>
+
+    <div class="spine reveal">
+      <h4>地铁 1 号线就是这趟的主轴</h4>
+      <p>1 号线北延段 2025 年 6 月通到昌北机场，机场、省博、住处、万寿宫全在同一条线上，不用换乘。赣江在秋水广场与滕王阁之间——也就是说，只有去万寿宫那一次才过江。</p>
+      <div class="line1"><div class="stop"><b>昌北机场</b><span>Day 1 / 4 · 17 站</span></div><div class="stop on"><b>珠江路</b><span>省博 · Day 2</span></div><div class="stop on hotel"><b>秋水广场</b><span>住这里 · 江边 0 距离</span></div><div class="river"></div><div class="stop"><b>滕王阁</b><span>只在对岸看</span></div><div class="stop on"><b>万寿宫</b><span>Day 3 · 唯一过江</span></div><div class="stop"><b>八一广场</b><span>老城中心（不住）</span></div><div class="stop"><b>艾溪湖西</b><span>太远，不排</span></div></div>
+    </div>
+
+    <div class="tbl-wrap reveal">
+      <table>
+        <thead><tr><th>四段固定行程</th><th>住红谷滩秋水广场</th><th>住老城八一广场</th><th>哪边更近</th></tr></thead>
+        <tbody><tr><td><b>9/30 机场 → 酒店</b></td><td class="win">约 30 分钟</td><td class="lose">约 40 分钟</td><td>昌北在城西北，红谷滩是它最近的市区方向</td></tr><tr><td><b>10/1 往返江西省博物馆</b></td><td class="win">约 25 分钟</td><td class="lose">约 55 分钟</td><td>省博在赣江北大道 698 号，本身就在红谷滩</td></tr><tr><td><b>10/2 往返万寿宫街区</b></td><td class="lose">约 15 分钟</td><td class="win">步行或 10 分钟</td><td>老城赢这一段，但只赢这一段</td></tr><tr><td><b>10/3 酒店 → 机场</b></td><td class="win">约 30 分钟</td><td class="lose">约 40 分钟</td><td>赶飞机那天，短的一侧更抗堵</td></tr><tr><td><b>滕王阁外景 / 江边散步</b></td><td class="win">步行可达</td><td class="lose">要过江</td><td>隔江看滕王阁的机位本来就在红谷滩这一岸</td></tr></tbody>
+      </table>
+    </div>
+    <p class="lead">五段里红谷滩赢四段，只在万寿宫那一段输——而那一段坐地铁只要两站。把「多花的」和「省下的」相减，住红谷滩四天大约少坐一小时车，全部省在机场往返和 10/1 这两处最难熬的地方。顺带解决一件事：隔江看滕王阁的机位本来就在红谷滩这一岸，住这边等于把这个画面变成 0 车程。</p>
+
+    <div class="tbl-wrap reveal">
+      <table>
+        <thead><tr><th>候选点位</th><th>从酒店打车</th><th>地铁</th><th>过不过江</th><th>结论</th></tr></thead>
+        <tbody><tr><td><b>江西省博物馆</b></td><td>约 12 分钟</td><td>1 号线 4 站 + 步行 700m</td><td>不过江</td><td class="vp keep">排进 10/1</td></tr><tr><td><b>赣江市民公园 / 江岸</b></td><td>步行</td><td>就在秋水广场站</td><td>不过江</td><td class="vp keep">排进 Day 1 + Day 4</td></tr><tr><td><b>万寿宫历史文化街区</b></td><td>约 15 分钟</td><td>1 号线 2 站，出站即到</td><td>过江一次</td><td class="vp keep">排进 10/2</td></tr><tr><td><b>滕王阁（登楼）</b></td><td>约 15 分钟</td><td>1 号线 1 站</td><td>过江</td><td class="vp soft">只在对岸看外景</td></tr><tr><td><b>秋水广场音乐喷泉</b></td><td>步行</td><td>就在门口</td><td>不过江</td><td class="vp soft">时刻冲突，不看</td></tr><tr><td><b>绳金塔历史街区</b></td><td>约 25 分钟</td><td>需换乘</td><td>过江 + 穿老城</td><td class="vp pass">不排</td></tr><tr><td><b>艾溪湖森林湿地公园</b></td><td>40 分钟以上</td><td>1 号线 11 站</td><td>过江 + 穿全城</td><td class="vp pass">不排</td></tr><tr><td><b>梅岭 / 庐山</b></td><td>1.5 小时以上</td><td>无直达</td><td>出城</td><td class="vp pass">不排</td></tr></tbody>
+      </table>
+    </div>
+    <p class="lead">「单程超 20 分钟不排」这条一执行，艾溪湖、绳金塔、梅岭就自动出局了——不是它们不好，是这四天的车程预算就这么多。省下来的时间全给了午睡和门口那段江边。</p>
+  </section>
+
+  <section class="blk" id="sched">
+    <div class="h2"><span class="num">03</span><h2>逐日行程 · 含点位实拍</h2></div>
+    <p class="lead">每行左边的图标是类型；蓝边方框是「备选 / 判断规则」，现场照着执行就行。点任意图片可放大（左右键切换、Esc 关闭），图角和按钮跳小红书。</p>
+    <div class="legend"><i>✈️ 飞行</i><i>🚗 打车 / 地铁</i><i>🍚 吃饭 / 辅食</i><i>😴 睡眠锚点</i><i>🎡 活动</i><i>🏨 酒店 / 家</i><i>⏸ 缓冲</i><i>🔀 决策点</i></div>
+    
+  <section class="day reveal" id="day1">
+    <header class="day-head">
+      <div class="day-id"><span class="dl">Day 1</span><span class="dd">9/30 周三</span></div>
+      <div class="day-txt">
+        <h3>杭州 → 红谷滩，落地只入住</h3>
+        <p>节前一天飞，机场比 10/1 松。今天不进任何景点。下面时刻按「上午 10 点起飞」倒推，换了班次就整段平移。</p>
+      </div>
+      <span class="day-budget">门到门约 4.5h · 今日车程 30min</span>
+    </header>
+    <ol class="tl">
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">06:45</div>
+          <div class="ev-main">
+            <div class="ev-title">起床、喂奶、最后装包</div>
+            <p class="ev-detail">推车放最外侧随手能拿；辅食、水、尿布单独一个包，放在能带上飞机的那件里。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-drive">
+          <span class="dot" title="打车 / 地铁">🚗</span>
+          <div class="ev-time">07:30</div>
+          <div class="ev-main">
+            <div class="ev-title">出发去萧山机场</div>
+            <p class="ev-detail">带娃建议起飞前 2h20 到航站楼——比平时多留 20 分钟给安检和喂奶。</p>
+            <div class="planb"><span>备选 / 规则</span>没有合适的上午直飞：改高铁，杭州东 → 南昌西约 3–3.5h，班次密、推车直接上车、中途能走动。不要为了飞而选中转，中转一次等于把门到门拉到 8 小时以上。</div>
+          </div>
+        </li>
+        <li class="ev kind-buffer">
+          <span class="dot" title="缓冲">⏸</span>
+          <div class="ev-time">08:30</div>
+          <div class="ev-main">
+            <div class="ev-title">值机 · 推车挂到登机口</div>
+            <p class="ev-detail">婴儿车办「登机口托运」，一路推到廊桥再交；提前问清落地在哪取。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-fly">
+          <span class="dot" title="飞行">✈️</span>
+          <div class="ev-time">10:00</div>
+          <div class="ev-main">
+            <div class="ev-title">起飞 · 空中约 1h</div>
+            <p class="ev-detail">起飞和下降各喂一次奶或水，靠吞咽平衡耳压——首飞最需要注意的就这一件事。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-eat">
+          <span class="dot" title="吃饭 / 辅食">🍚</span>
+          <div class="ev-time">11:00</div>
+          <div class="ev-main">
+            <div class="ev-title">机上辅食</div>
+            <p class="ev-detail">空中时间短，餐车不一定赶得上，自带辅食泥直接喂。</p>
+            <div class="planb"><span>备选 / 规则</span>班次对不上 11 点：在候机楼吃完再登机，别拖到落地的到达大厅里凑合。</div>
+          </div>
+        </li>
+        <li class="ev kind-buffer">
+          <span class="dot" title="缓冲">⏸</span>
+          <div class="ev-time">11:30</div>
+          <div class="ev-main">
+            <div class="ev-title">落地昌北 · 取推车</div>
+            <p class="ev-detail">先换尿布、放她在推车里活动一会，不急着冲出去打车。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-drive">
+          <span class="dot" title="打车 / 地铁">🚗</span>
+          <div class="ev-time">12:00</div>
+          <div class="ev-main">
+            <div class="ev-title">打车去红谷滩 · 约 30 分钟</div>
+            <p class="ev-detail">昌北到红谷滩约 25–28 公里，是全城最短的机场接送方向（去老城要多 10 分钟）。</p>
+            <div class="planb"><span>备选 / 规则</span>打车排队超 20 分钟：走地铁。1 号线 2025 年 6 月已通到昌北机场站，直达秋水广场 17 站约 45 分钟，全程不用换乘、站内有电梯。</div>
+          </div>
+        </li>
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">12:40</div>
+          <div class="ev-main">
+            <div class="ev-title">到店 · 大人轮流吃饭</div>
+            <p class="ev-detail">一人看娃一人吃。清一块地板给她爬，插座贴防护，窗帘绳收高。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-nap">
+          <span class="dot" title="睡眠锚点">😴</span>
+          <div class="ev-time">15:00</div>
+          <div class="ev-main">
+            <div class="ev-title">宝宝床上午睡</div>
+            <p class="ev-detail">拉窗帘 + 白噪音。这一格谁都不许安排别的事。今天提前落地，就是为了保住它。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-play">
+          <span class="dot" title="活动">🎡</span>
+          <div class="ev-time">16:45</div>
+          <div class="ev-main">
+            <div class="ev-title">酒店门口江边推车 60 分钟</div>
+            <p class="ev-detail">赣江市民公园沿江步道，平整好推，隔江正对滕王阁。车程为零，她一闹两百米就回房。</p>
+            <div class="planb"><span>备选 / 规则</span>下雨或她状态差：改成房间地垫 + 酒店公区，一样算完成今天。</div>
+          </div>
+        </li>
+        <li class="ev kind-eat">
+          <span class="dot" title="吃饭 / 辅食">🍚</span>
+          <div class="ev-time">18:00</div>
+          <div class="ev-main">
+            <div class="ev-title">晚饭（早开饭）</div>
+            <p class="ev-detail">南昌菜偏辣偏咸，点菜第一句就说「宝宝那份无盐无辣单独做」，优先原味瓦罐汤、白粥、蒸蛋。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">19:30</div>
+          <div class="ev-main">
+            <div class="ev-title">洗澡 → 20:30 入睡</div>
+            <p class="ev-detail">第一晚换环境加坐过飞机可能闹，整套流程提前半小时开始。19:30 后喷泉开场人会涌过来，那之前就回房。</p>
+            
+          </div>
+        </li></ol>
+    
+      <div class="spot">
+        <div class="spot-head">
+          <span class="tag keep">先定它，其余距离都由它决定</span>
+          <h4>红谷滩 · 秋水广场站一带（江景电梯酒店）</h4>
+        </div>
+        
+        <p class="why">这趟行程的所有距离都由住哪儿决定，所以先定它。秋水广场站在地铁 1 号线上，往北 4 站是省博，往东过江 2 站是万寿宫，往西北 17 站直达昌北机场，全程不用换乘；酒店门口就是赣江边，正对着滕王阁。住老城八一广场那一片，等于把省博和机场两头都拉远。</p>
+        <ul class="notes"><li>锁定「地铁秋水广场站步行 10 分钟内 + 电梯 + 婴儿床」，江景不是必须，步行到江边是必须</li><li>9/30–10/3 三晚同一间房，不换酒店——这是整个行程能松下来的前提</li><li>订可免费取消的房型：她首飞状态不好时，你还留着提前回家的余地</li><li>备注需要热水或微波炉加热辅食；确认同层或楼下有便利店</li></ul>
+        <div class="gallery"><figure class="shot" data-title="南昌红谷滩江景酒店实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97"><img src="img/001-5ef252cb3265.jpg" alt="南昌红谷滩江景酒店实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌红谷滩江景酒店实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="秋水广场地铁口住宿" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97"><img src="img/002-d6f0089e4e80.jpg" alt="秋水广场地铁口住宿" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">秋水广场地铁口住宿</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌亲子房｜婴儿床实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97"><img src="img/003-66bb06802454.jpg" alt="南昌亲子房｜婴儿床实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌亲子房｜婴儿床实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="红谷滩CBD酒店" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97"><img src="img/004-6c1b1692cbcc.jpg" alt="红谷滩CBD酒店" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">红谷滩CBD酒店</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌住宿｜对岸就是滕王阁" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97"><img src="img/005-b4535c6a227f.jpg" alt="南昌住宿｜对岸就是滕王阁" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌住宿｜对岸就是滕王阁</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BA%A2%E8%B0%B7%E6%BB%A9%20%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E4%BA%B2%E5%AD%90%E9%85%92%E5%BA%97" target="_blank" rel="noopener">在小红书看「南昌红谷滩 秋水广场 亲子酒店」全部笔记 ↗</a>
+      </div>
+      <div class="spot">
+        <div class="spot-head">
+          <span class="tag keep">今天唯一的「出门」，车程为零</span>
+          <h4>赣江市民公园 · 秋水广场江岸（酒店门口）</h4>
+        </div>
+        
+        <p class="why">车程为零的那个点。沿江步道全程平整宽阔，推车随便走，走累了两百米就回房间。南昌最有名的那张画面——隔江看滕王阁和双子塔——就是在这一岸拍的，不用买票、不用过江、不用挤景区。</p>
+        <ul class="notes"><li>Day 1 傍晚和 Day 4 上午都用它，因为它随时可中断：她一闹就回房</li><li>只走酒店那一段，不沿江走远；傍晚风比白天大，多带一件薄外套</li><li>晚上 19:30 之后音乐喷泉开场，人会涌过来——那之前就回房洗澡</li></ul>
+        <div class="gallery"><figure class="shot" data-title="南昌赣江边散步实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/006-b22d51ada150.jpg" alt="南昌赣江边散步实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌赣江边散步实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="红谷滩江岸｜对面是滕王阁" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/006-b22d51ada150.jpg" alt="红谷滩江岸｜对面是滕王阁" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">红谷滩江岸｜对面是滕王阁</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="赣江市民公园" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/007-c40e57574274.jpg" alt="赣江市民公园" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">赣江市民公园</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌江景步道" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/008-2fcdb0278d2a.jpg" alt="南昌江景步道" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌江景步道</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="秋水广场江边实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/009-f70122b6f5f4.jpg" alt="秋水广场江边实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">秋水广场江边实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">在小红书看「南昌赣江市民公园 散步」全部笔记 ↗</a>
+      </div>
+  </section>
+  <section class="day reveal" id="day2">
+    <header class="day-head">
+      <div class="day-id"><span class="dl">Day 2</span><span class="dd">10/1 周四</span></div>
+      <div class="day-txt">
+        <h3>江西省博物馆：室内，而且不过江</h3>
+        <p>10/1 是全假期人最多的一天。两条约束同时生效：只进室内，且不过江。省博正好都满足——同在红谷滩，打车 12 分钟。开馆即进、11:45 撤。</p>
+      </div>
+      <span class="day-budget">今日车程 25min（往返）</span>
+    </header>
+    <ol class="tl">
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">07:15</div>
+          <div class="ev-main">
+            <div class="ev-title">起床 · 07:45 早餐</div>
+            <p class="ev-detail">订的含双早，或让餐厅送到房间，省掉一次排队。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-drive">
+          <span class="dot" title="打车 / 地铁">🚗</span>
+          <div class="ev-time">08:30</div>
+          <div class="ev-main">
+            <div class="ev-title">打车去省博 · 约 12 分钟</div>
+            <p class="ev-detail">赣江北大道 698 号，同岸往北。出发前确认预约二维码和身份证原件都在身上。</p>
+            <div class="planb"><span>备选 / 规则</span>地铁也行但更绕：秋水广场 → 珠江路 4 站，出站还要走 700 米。带推车的话直接打车，12 分钟到门口。</div>
+          </div>
+        </li>
+        <li class="ev kind-buffer">
+          <span class="dot" title="缓冲">⏸</span>
+          <div class="ev-time">09:00</div>
+          <div class="ev-main">
+            <div class="ev-title">开馆即进</div>
+            <p class="ev-detail">9:00 开馆，10/1 第一波人流集中在 10 点后，早进一小时等于少挤半小时。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-play">
+          <span class="dot" title="活动">🎡</span>
+          <div class="ev-time">09:15</div>
+          <div class="ev-main">
+            <div class="ev-title">海昏侯展厅</div>
+            <p class="ev-detail">室内恒温、光线柔、人声低，这是她今天最容易待住的地方，推车一路推。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-play">
+          <span class="dot" title="活动">🎡</span>
+          <div class="ev-time">10:15</div>
+          <div class="ev-main">
+            <div class="ev-title">另一层慢推 30 分钟</div>
+            <p class="ev-detail">不追着看完八个常设展，看到她开始扭就准备收。</p>
+            <div class="planb"><span>备选 / 规则</span>馆里人比想象中多：下到大厅休息区坐着，不要在人堆里硬推车。</div>
+          </div>
+        </li>
+        <li class="ev kind-drive">
+          <span class="dot" title="打车 / 地铁">🚗</span>
+          <div class="ev-time">10:50</div>
+          <div class="ev-main">
+            <div class="ev-title">打车回酒店</div>
+            <p class="ev-detail">12 分钟就到，所以 11:00 那顿在自己房间吃——比在馆里找座位省事。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-eat">
+          <span class="dot" title="吃饭 / 辅食">🍚</span>
+          <div class="ev-time">11:00</div>
+          <div class="ev-main">
+            <div class="ev-title">房间辅食</div>
+            <p class="ev-detail">同岸的好处全在这里：出门到回房都在 15 分钟车程内，午睡前有整整 4 小时缓冲。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">12:30</div>
+          <div class="ev-main">
+            <div class="ev-title">大人轮流吃饭 + 躺一会</div>
+            <p class="ev-detail">今天已经用掉出门额度，下午不再出第二趟。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-nap">
+          <span class="dot" title="睡眠锚点">😴</span>
+          <div class="ev-time">15:00</div>
+          <div class="ev-main">
+            <div class="ev-title">房间午睡</div>
+            <p class="ev-detail">关键是别让她在车上把这觉睡掉——车程短本来就是为了这个。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-play">
+          <span class="dot" title="活动">🎡</span>
+          <div class="ev-time">16:45</div>
+          <div class="ev-main">
+            <div class="ev-title">江边或酒店公区</div>
+            <p class="ev-detail">还是门口那段步道，还是零车程。今天不过江、不去万寿宫、不看喷泉。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-eat">
+          <span class="dot" title="吃饭 / 辅食">🍚</span>
+          <div class="ev-time">18:30</div>
+          <div class="ev-main">
+            <div class="ev-title">晚饭 → 20:30 入睡</div>
+            <p class="ev-detail">顺手确认明天的天气，决定万寿宫去不去。</p>
+            
+          </div>
+        </li></ol>
+    
+      <div class="spot">
+        <div class="spot-head">
+          <span class="tag keep">今天的主角</span>
+          <h4>江西省博物馆（新馆）</h4>
+        </div>
+        
+        <p class="why">10/1 的正确答案是「室内 + 不过江」，省博两条都满足：在红谷滩赣江北大道 698 号，和酒店同岸，打车约 12 分钟。免费、恒温、地面平整有电梯，推车能一路推；展厅光线暗、人声低，10 月龄在里面比在街上安稳得多。全城人最多那天，躲进有空调的大馆，是花最少体力换最多舒服。</p>
+        <ul class="notes"><li>实名免费预约，可提前 7 天，放票时间是每天晚上 20:00——10/1 的票要掐着点抢</li><li>周二至周日 9:00–17:00，周一闭馆但法定节假日不闭馆；带身份证原件刷卡入馆，推车可进</li><li>地铁备选：1 号线秋水广场 → 珠江路 4 站，出 1 号或 2 号口还要走 700 米；珠江路 2 号口有「新三馆接驳专线」（8:30–17:30）</li><li>没抢到票就当天留酒店或走江边，不要临时改去万寿宫——10/1 那边是全假期峰值</li></ul>
+        <div class="gallery"><figure class="shot" data-title="江西省博物馆｜海昏侯展厅实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83"><img src="img/010-003ba2c2830c.jpg" alt="江西省博物馆｜海昏侯展厅实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">江西省博物馆｜海昏侯展厅实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌遛娃｜室内免费又凉快" data-link="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83"><img src="img/011-806ec4841546.jpg" alt="南昌遛娃｜室内免费又凉快" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌遛娃｜室内免费又凉快</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="省博预约攻略" data-link="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83"><img src="img/012-6bc5f72529bd.jpg" alt="省博预约攻略" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">省博预约攻略</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="带宝宝逛博物馆的一天" data-link="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83"><img src="img/013-3e0b539a63e2.jpg" alt="带宝宝逛博物馆的一天" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">带宝宝逛博物馆的一天</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="江西省博物馆 · 展厅实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83"><img src="img/014-7a6819777348.jpg" alt="江西省博物馆 · 展厅实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">江西省博物馆 · 展厅实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%20%E5%B8%A6%E5%A8%83" target="_blank" rel="noopener">在小红书看「江西省博物馆 带娃」全部笔记 ↗</a>
+      </div>
+  </section>
+  <section class="day reveal" id="day3">
+    <header class="day-head">
+      <div class="day-id"><span class="dl">Day 3</span><span class="dd">10/2 周五</span></div>
+      <div class="day-txt">
+        <h3>万寿宫街区：全程唯一一次过江</h3>
+        <p>四天里只过一次赣江，就是今天，而且只坐两站地铁。上午出门一次，11:00 回酒店吃辅食，15:00 照常在自己床上睡。</p>
+      </div>
+      <span class="day-budget">今日车程 15min（地铁 2 站往返）</span>
+    </header>
+    <ol class="tl">
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">07:30</div>
+          <div class="ev-main">
+            <div class="ev-title">起床 · 08:00 早餐</div>
+            <p class="ev-detail">边吃边看天气。下雨或她昨天没睡好，就直接执行下面那条 B 方案，不硬去。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-drive">
+          <span class="dot" title="打车 / 地铁">🚗</span>
+          <div class="ev-time">08:40</div>
+          <div class="ev-main">
+            <div class="ev-title">地铁 1 号线 · 秋水广场 → 万寿宫</div>
+            <p class="ev-detail">两站，中间只隔一个滕王阁站，出站即街区。国庆过江的桥是堵点，地铁比打车可控，站内有电梯。</p>
+            <div class="planb"><span>备选 / 规则</span>带推车怕挤：错开 8:00–9:00 通勤峰，8:40 这班通常有座；实在不想坐地铁就打车，过江约 15 分钟。</div>
+          </div>
+        </li>
+        <li class="ev kind-play">
+          <span class="dot" title="活动">🎡</span>
+          <div class="ev-time">09:00</div>
+          <div class="ev-main">
+            <div class="ev-title">万寿宫主街，90–100 分钟</div>
+            <p class="ev-detail">只走主街，不钻窄巷、不排队、不进网红店。09:00–10:40 是人最少的窗口。</p>
+            <div class="planb"><span>备选 / 规则</span>到了发现主街已经堵住推车：退回地铁站，改坐两站回酒店走江边——今天的额度就算用完，不补第二个点。</div>
+          </div>
+        </li>
+        <li class="ev kind-drive">
+          <span class="dot" title="打车 / 地铁">🚗</span>
+          <div class="ev-time">10:40</div>
+          <div class="ev-main">
+            <div class="ev-title">原路两站回酒店</div>
+            <p class="ev-detail">今天唯一的硬时间点。两站的好处就是这段几乎不花时间。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-eat">
+          <span class="dot" title="吃饭 / 辅食">🍚</span>
+          <div class="ev-time">11:00</div>
+          <div class="ev-main">
+            <div class="ev-title">房间辅食</div>
+            <p class="ev-detail">不用在街上找有座位的店，也不用带焖烧杯出门——这是把景点放在两站之外换来的。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">12:30</div>
+          <div class="ev-main">
+            <div class="ev-title">大人吃饭 · 收一半行李</div>
+            <p class="ev-detail">明天要赶飞机，今天把不用的东西先装箱。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-nap">
+          <span class="dot" title="睡眠锚点">😴</span>
+          <div class="ev-time">15:00</div>
+          <div class="ev-main">
+            <div class="ev-title">房间午睡</div>
+            <p class="ev-detail">和前两天完全一致，不动。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-decide">
+          <span class="dot" title="决策点">🔀</span>
+          <div class="ev-time">16:45</div>
+          <div class="ev-main">
+            <div class="ev-title">看状态决定傍晚</div>
+            <p class="ev-detail">A｜酒店和门口江边躺平；B｜她午睡满 1.5h 且不下雨，江边多走 30 分钟看滕王阁上灯。两个都在酒店 200 米内。</p>
+            <div class="planb"><span>备选 / 规则</span>无论 A 还是 B，19:30 前必须回房——那之后喷泉开场，江边会变成人海。喷泉这趟不看。</div>
+          </div>
+        </li>
+        <li class="ev kind-eat">
+          <span class="dot" title="吃饭 / 辅食">🍚</span>
+          <div class="ev-time">18:30</div>
+          <div class="ev-main">
+            <div class="ev-title">晚饭 → 20:30 入睡</div>
+            <p class="ev-detail">早点睡，明天要去机场。</p>
+            
+          </div>
+        </li></ol>
+    
+      <div class="spot">
+        <div class="spot-head">
+          <span class="tag keep">今天的主角，也是唯一一次过江</span>
+          <h4>万寿宫历史文化街区</h4>
+        </div>
+        
+        <p class="why">全程唯一一次过江，也是唯一一个正式的人文点。地铁 1 号线秋水广场 → 滕王阁 → 万寿宫，两站就到，出站即街区，不用换乘、不用挤八一大桥。赣派建筑连成片，主街宽、地面平，推车走得动。</p>
+        <ul class="notes"><li>走地铁不打车：国庆过江的桥是堵点，两站地铁比打车更可控，站内有电梯</li><li>09:00–10:40 这个窗口人最少，11 点后旅行团涌入；只走主街，珠宝街、棉花街那几条窄巷不钻</li><li>两站的好处：11:00 那顿辅食直接回酒店吃，不用在街上找有座位的店</li><li>不夜市、不排队网红店；街上米粉偏咸偏辣，宝宝那份一律回酒店解决</li></ul>
+        <div class="gallery"><figure class="shot" data-title="南昌万寿宫历史文化街区实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA"><img src="img/015-f7074ef3681e.jpg" alt="南昌万寿宫历史文化街区实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌万寿宫历史文化街区实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="万寿宫街区｜清早人最少的时候" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA"><img src="img/015-f7074ef3681e.jpg" alt="万寿宫街区｜清早人最少的时候" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">万寿宫街区｜清早人最少的时候</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌citywalk｜赣派老街" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA"><img src="img/016-6bcd9b0c2af2.jpg" alt="南昌citywalk｜赣派老街" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌citywalk｜赣派老街</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="万寿宫夜景（这趟不去）" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA"><img src="img/016-6bcd9b0c2af2.jpg" alt="万寿宫夜景（这趟不去）" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">万寿宫夜景（这趟不去）</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="万寿宫街区 · 主街实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA"><img src="img/017-f0572ea99c3c.jpg" alt="万寿宫街区 · 主街实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">万寿宫街区 · 主街实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA" target="_blank" rel="noopener">在小红书看「南昌万寿宫历史文化街区」全部笔记 ↗</a>
+      </div>
+  </section>
+  <section class="day reveal" id="day4">
+    <header class="day-head">
+      <div class="day-id"><span class="dl">Day 4</span><span class="dd">10/3 周六</span></div>
+      <div class="day-txt">
+        <h3>上午门口江边，中午前去机场</h3>
+        <p>不安排任何需要买票的项目，也不再过江。10/3 还在假期中段，昌北比平日忙，打车预留 3 小时到起飞——住红谷滩这一侧，这段是全城最短的。</p>
+      </div>
+      <span class="day-budget">门到门约 4.5h · 今日车程 30min</span>
+    </header>
+    <ol class="tl">
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">08:00</div>
+          <div class="ev-main">
+            <div class="ev-title">早餐 · 慢慢收行李</div>
+            <p class="ev-detail">退房前把东西归位，避免临出发手忙脚乱。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-play">
+          <span class="dot" title="活动">🎡</span>
+          <div class="ev-time">09:00</div>
+          <div class="ev-main">
+            <div class="ev-title">门口江边最后逛 60 分钟</div>
+            <p class="ev-detail">还是那段步道，拍几张全家照。零车程的点适合放在要赶飞机的这天。</p>
+            <div class="planb"><span>备选 / 规则</span>体力一般就在房间玩到退房，这天本来就是缓冲日。</div>
+          </div>
+        </li>
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">10:30</div>
+          <div class="ev-main">
+            <div class="ev-title">退房 · 行李寄存</div>
+            <p class="ev-detail">尿布台和辅食包留到最后收。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-eat">
+          <span class="dot" title="吃饭 / 辅食">🍚</span>
+          <div class="ev-time">11:00</div>
+          <div class="ev-main">
+            <div class="ev-title">房间或大堂辅食</div>
+            <p class="ev-detail">吃完再走，路上就不用找地方喂。</p>
+            
+          </div>
+        </li>
+        <li class="ev kind-drive">
+          <span class="dot" title="打车 / 地铁">🚗</span>
+          <div class="ev-time">11:40</div>
+          <div class="ev-main">
+            <div class="ev-title">打车去昌北 · 约 30 分钟</div>
+            <p class="ev-detail">预留 3 小时到起飞：假期中段堵车 + 值机 + 安检都比平日慢，昌北截关是起飞前 35 分钟。</p>
+            <div class="planb"><span>备选 / 规则</span>堵车就切地铁：1 号线秋水广场直达昌北机场站 17 站约 45 分钟，不受路面影响。车上备手指食物和两首固定的安抚音乐。</div>
+          </div>
+        </li>
+        <li class="ev kind-fly">
+          <span class="dot" title="飞行">✈️</span>
+          <div class="ev-time">15:00 前后</div>
+          <div class="ev-main">
+            <div class="ev-title">起飞 · 空中约 1h</div>
+            <p class="ev-detail">同样起降各喂一次。落地杭州后直接回家，不安排任何顺路。</p>
+            <div class="planb"><span>备选 / 规则</span>下午航班容易延误：登机口附近先找好能铺地垫的角落，别在人堆里站着等。</div>
+          </div>
+        </li>
+        <li class="ev kind-home">
+          <span class="dot" title="酒店 / 家">🏨</span>
+          <div class="ev-time">17:30 前</div>
+          <div class="ev-main">
+            <div class="ev-title">到家</div>
+            <p class="ev-detail">行李先扔客厅，不整理。今天午睡大概在飞机或车上补掉，当晚提前洗澡早睡。</p>
+            
+          </div>
+        </li></ol>
+    
+      <div class="spot">
+        <div class="spot-head">
+          <span class="tag keep">今天也用它，因为它随时能中断</span>
+          <h4>赣江市民公园 · 秋水广场江岸（酒店门口）</h4>
+        </div>
+        
+        <p class="why">车程为零的那个点。沿江步道全程平整宽阔，推车随便走，走累了两百米就回房间。南昌最有名的那张画面——隔江看滕王阁和双子塔——就是在这一岸拍的，不用买票、不用过江、不用挤景区。</p>
+        <ul class="notes"><li>Day 1 傍晚和 Day 4 上午都用它，因为它随时可中断：她一闹就回房</li><li>只走酒店那一段，不沿江走远；傍晚风比白天大，多带一件薄外套</li><li>晚上 19:30 之后音乐喷泉开场，人会涌过来——那之前就回房洗澡</li></ul>
+        <div class="gallery"><figure class="shot" data-title="南昌赣江边散步实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/006-b22d51ada150.jpg" alt="南昌赣江边散步实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌赣江边散步实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="红谷滩江岸｜对面是滕王阁" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/006-b22d51ada150.jpg" alt="红谷滩江岸｜对面是滕王阁" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">红谷滩江岸｜对面是滕王阁</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="赣江市民公园" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/007-c40e57574274.jpg" alt="赣江市民公园" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">赣江市民公园</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌江景步道" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/008-2fcdb0278d2a.jpg" alt="南昌江景步道" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌江景步道</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="秋水广场江边实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5"><img src="img/009-f70122b6f5f4.jpg" alt="秋水广场江边实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">秋水广场江边实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%B5%A3%E6%B1%9F%E5%B8%82%E6%B0%91%E5%85%AC%E5%9B%AD%20%E6%95%A3%E6%AD%A5" target="_blank" rel="noopener">在小红书看「南昌赣江市民公园 散步」全部笔记 ↗</a>
+      </div>
+  </section>
+  </section>
+
+  <section class="blk" id="later">
+    <div class="h2"><span class="num">04</span><h2>好看，但留给下次</h2></div>
+    <p class="lead">这几个点本身都不错。前三个是被作息或台阶挡住的，后三个纯粹是距离不够——图都留着，以后单独去。</p>
+    <div class="stack">
+    <article class="card reveal">
+      <div class="gallery"><figure class="shot" data-title="南昌滕王阁实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81"><img src="img/017-f0572ea99c3c.jpg" alt="南昌滕王阁实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌滕王阁实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="滕王阁夜景灯光" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81"><img src="img/018-d518e38f074e.jpg" alt="滕王阁夜景灯光" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">滕王阁夜景灯光</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="隔江看滕王阁" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81"><img src="img/016-6bcd9b0c2af2.jpg" alt="隔江看滕王阁" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">隔江看滕王阁</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="滕王阁 · 外景实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81"><img src="img/017-f0572ea99c3c.jpg" alt="滕王阁 · 外景实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">滕王阁 · 外景实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌地标 · 滕王阁" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81"><img src="img/019-367c97ca8109.jpg" alt="南昌地标 · 滕王阁" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌地标 · 滕王阁</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+      <div class="body">
+        <h4 class="name">滕王阁（登楼）</h4>
+        <p class="why">江南三大名楼之首。好消息是：它的最佳观赏位就在你酒店这一岸——Day 1 傍晚在江边就能看到整个立面和夜间灯光，距离为零。</p>
+        <p class="line"><b>这次不排：</b>登楼要过江、买票、爬台阶，国庆排队长，推车基本用不上。外景已经在门口看过了，楼里那一趟这次不划算。</p>
+        <p class="line soft-line"><b>以后：</b>娃会自己走路以后，挑个平日下午过江登楼</p>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%BB%95%E7%8E%8B%E9%98%81" target="_blank" rel="noopener">小红书搜「南昌滕王阁」↗</a>
+      </div>
+    </article>
+    <article class="card reveal">
+      <div class="gallery"><figure class="shot" data-title="南昌秋水广场音乐喷泉" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89"><img src="img/020-24dd1ff576f4.jpg" alt="南昌秋水广场音乐喷泉" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌秋水广场音乐喷泉</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="秋水广场｜隔江看滕王阁" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89"><img src="img/007-c40e57574274.jpg" alt="秋水广场｜隔江看滕王阁" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">秋水广场｜隔江看滕王阁</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="赣江夜景 · 双子塔" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89"><img src="img/009-f70122b6f5f4.jpg" alt="赣江夜景 · 双子塔" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">赣江夜景 · 双子塔</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="秋水广场实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89"><img src="img/021-490d69783d78.jpg" alt="秋水广场实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">秋水广场实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌夜游 · 赣江边" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89"><img src="img/008-2fcdb0278d2a.jpg" alt="南昌夜游 · 赣江边" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌夜游 · 赣江边</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+      <div class="body">
+        <h4 class="name">秋水广场音乐喷泉</h4>
+        <p class="why">主喷百米级，隔江对着滕王阁，是南昌夜里最热闹的一块。它就在酒店门口，距离上是全城最近的一个点。</p>
+        <p class="line"><b>这次不排：</b>这个点不是距离问题，是时刻问题：常见场次在 19:30 之后开场，正好压着她洗澡入睡那段。节假日提前一小时占位，前排还会被水淋，散场几千人一起走。</p>
+        <p class="line soft-line"><b>以后：</b>非节假日看一场，且当晚不赶早班机</p>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%A7%8B%E6%B0%B4%E5%B9%BF%E5%9C%BA%20%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89" target="_blank" rel="noopener">小红书搜「南昌秋水广场 音乐喷泉」↗</a>
+      </div>
+    </article>
+    <article class="card reveal">
+      <div class="gallery"><figure class="shot" data-title="南昌绳金塔实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94"><img src="img/019-367c97ca8109.jpg" alt="南昌绳金塔实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌绳金塔实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="绳金塔街区｜白天的样子" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94"><img src="img/019-367c97ca8109.jpg" alt="绳金塔街区｜白天的样子" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">绳金塔街区｜白天的样子</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌绳金塔夜市（这趟不去）" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94"><img src="img/015-f7074ef3681e.jpg" alt="南昌绳金塔夜市（这趟不去）" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌绳金塔夜市（这趟不去）</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="绳金塔 · 塔身实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94"><img src="img/015-f7074ef3681e.jpg" alt="绳金塔 · 塔身实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">绳金塔 · 塔身实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌老城 · 绳金塔" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94"><img src="img/016-6bcd9b0c2af2.jpg" alt="南昌老城 · 绳金塔" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌老城 · 绳金塔</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+      <div class="body">
+        <h4 class="name">绳金塔历史街区</h4>
+        <p class="why">老城南的免费街区，塔下拍照一眼就够，主场是傍晚夜市。</p>
+        <p class="line"><b>这次不排：</b>过江之后还要再往南穿半个老城，从红谷滩打车 25 分钟上下，而它白天的内容量撑不起这个车程——同样的距离预算给万寿宫更值。夜市那一面又和作息冲突。</p>
+        <p class="line soft-line"><b>以后：</b>以后住老城那一侧时，傍晚顺路吃个夜市</p>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E7%BB%B3%E9%87%91%E5%A1%94" target="_blank" rel="noopener">小红书搜「南昌绳金塔」↗</a>
+      </div>
+    </article>
+    <article class="card reveal">
+      <div class="gallery"><figure class="shot" data-title="南昌艾溪湖森林湿地公园实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD"><img src="img/022-587ec2468467.jpg" alt="南昌艾溪湖森林湿地公园实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌艾溪湖森林湿地公园实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="艾溪湖｜秋天的芦苇和粉黛草" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD"><img src="img/022-587ec2468467.jpg" alt="艾溪湖｜秋天的芦苇和粉黛草" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">艾溪湖｜秋天的芦苇和粉黛草</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌免费遛娃地｜湖边绿道" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD"><img src="img/023-bcd82be1a3e2.jpg" alt="南昌免费遛娃地｜湖边绿道" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌免费遛娃地｜湖边绿道</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="艾溪湖湿地公园散步" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD"><img src="img/024-01a39af24972.jpg" alt="艾溪湖湿地公园散步" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">艾溪湖湿地公园散步</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="艾溪湖 · 绿道实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD"><img src="img/025-be34387121c4.jpg" alt="艾溪湖 · 绿道实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">艾溪湖 · 绿道实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+      <div class="body">
+        <h4 class="name">艾溪湖森林湿地公园</h4>
+        <p class="why">免费、环湖绿道平坦、树多阴凉，10 月芦苇和粉黛草正好，是南昌推车条件最好的自然一块。</p>
+        <p class="line"><b>这次不排：</b>被距离筛掉了：它在城东高新区，从红谷滩打车 40 分钟以上，地铁 1 号线虽然直达但要坐 11 站。单程超过 20 分钟的点这趟一律不排——为了一片草地来回耗掉 1.5 小时车程，换不回来。</p>
+        <p class="line soft-line"><b>以后：</b>以后住城东那一侧时顺路去，或者娃能自己跑的时候</p>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E8%89%BE%E6%BA%AA%E6%B9%96%E6%A3%AE%E6%9E%97%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD" target="_blank" rel="noopener">小红书搜「南昌艾溪湖森林湿地公园」↗</a>
+      </div>
+    </article>
+    <article class="card reveal">
+      <div class="gallery"><figure class="shot" data-title="南昌梅岭竹海" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD"><img src="img/024-01a39af24972.jpg" alt="南昌梅岭竹海" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌梅岭竹海</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="梅岭国家森林公园实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD"><img src="img/024-01a39af24972.jpg" alt="梅岭国家森林公园实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">梅岭国家森林公园实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="梅岭 · 山林步道" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD"><img src="img/026-f3a2078dbfb0.jpg" alt="梅岭 · 山林步道" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">梅岭 · 山林步道</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="南昌近郊 · 梅岭" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD"><img src="img/022-587ec2468467.jpg" alt="南昌近郊 · 梅岭" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">南昌近郊 · 梅岭</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="梅岭风景实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD"><img src="img/023-bcd82be1a3e2.jpg" alt="梅岭风景实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">梅岭风景实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+      <div class="body">
+        <h4 class="name">梅岭国家森林公园</h4>
+        <p class="why">竹海、瀑布、狮子峰，南昌近郊最能出片的自然一块。</p>
+        <p class="line"><b>这次不排：</b>山路加缆车，步行强度对 10 月龄完全不匹配；市区来回就要吃掉一整天，午睡必然在车上。</p>
+        <p class="line soft-line"><b>以后：</b>大孩子时期单独安排一日自驾</p>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E6%98%8C%E6%A2%85%E5%B2%AD" target="_blank" rel="noopener">小红书搜「南昌梅岭」↗</a>
+      </div>
+    </article>
+    <article class="card reveal">
+      <div class="gallery"><figure class="shot" data-title="庐山云海实拍" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90"><img src="img/026-f3a2078dbfb0.jpg" alt="庐山云海实拍" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">庐山云海实拍</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="庐山 · 山间步道" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90"><img src="img/027-2d1ad0f0e98c.jpg" alt="庐山 · 山间步道" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">庐山 · 山间步道</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="庐山风景" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90"><img src="img/028-0ad4ae544cb3.jpg" alt="庐山风景" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">庐山风景</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="庐山 · 云雾" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90"><img src="img/029-0b46240bfce9.jpg" alt="庐山 · 云雾" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">庐山 · 云雾</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure><figure class="shot" data-title="江西 · 庐山" data-link="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90"><img src="img/024-01a39af24972.jpg" alt="江西 · 庐山" loading="lazy" /><span class="zoom">⤢</span><figcaption><span class="cap-t">江西 · 庐山</span><a class="cap-l" href="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90" target="_blank" rel="noopener">小红书 ↗</a></figcaption></figure></div>
+      <div class="body">
+        <h4 class="name">庐山</h4>
+        <p class="why">云海名山，江西最有名的一张画面。</p>
+        <p class="line"><b>这次不排：</b>南昌再往九江，车程叠加景区排队，四天里塞进去必然变成特种兵。</p>
+        <p class="line soft-line"><b>以后：</b>单独成行，不要挂在南昌这四天里</p>
+        <a class="xhs-btn" href="https://www.xiaohongshu.com/search_result?keyword=%E5%BA%90%E5%B1%B1%20%E4%BA%B2%E5%AD%90" target="_blank" rel="noopener">小红书搜「庐山 亲子」↗</a>
+      </div>
+    </article></div>
+  </section>
+
+  <section class="blk" id="prep">
+    <div class="h2"><span class="num">05</span><h2>出发前清单</h2></div>
+    <p class="lead">可以直接勾选（刷新会重置）。机票、订房、省博预约三件越早越好。</p>
+    <div class="checks"><div class="chk"><label><input type="checkbox" /><div><b>机票</b><span>只买萧山↔昌北直飞：去程 9/30 上午或中午（不订傍晚班），回程 10/3 下午。没有直飞就改高铁杭州东→南昌西，不要中转</span></div></label></div><div class="chk"><label><input type="checkbox" /><div><b>订房</b><span>红谷滩秋水广场站步行圈 · 9/30–10/3 三晚同一间房 · 含双早 · 婴儿床 · 电梯楼层 · 备注需加热辅食 · 选可免费取消</span></div></label></div><div class="chk"><label><input type="checkbox" /><div><b>预约</b><span>江西省博物馆 10/1 场次：提前 7 天、每晚 20:00 放票，走「江博预约」小程序或官网，不要找第三方代订；抢不到就当天留酒店走江边</span></div></label></div><div class="chk"><label><input type="checkbox" /><div><b>首飞</b><span>户口本 / 出生证明；婴儿车办登机口托运；起降喂奶护耳；耳温枪、退烧药、生理盐水</span></div></label></div><div class="chk"><label><input type="checkbox" /><div><b>宝宝装备</b><span>轻便伞车 + 腰凳、辅食泥/焖烧杯、宝宝餐具、尿布湿巾、隔尿垫、三套换洗、薄外套（江边风大）</span></div></label></div><div class="chk"><label><input type="checkbox" /><div><b>其他</b><span>白噪音音箱或 App、她常玩的两个玩具、雨具；南昌点菜先说「无盐无辣单独做」；地铁 1 号线末班车假期延到 23:00</span></div></label></div></div>
+    <p class="foot">配图说明：南昌这份用的是公开图库的氛围示意图（抓小红书封面时登录态标签页被占用），不是各点位的笔记封面，所以别拿图当实景参考；每张图和每个按钮都跳该点位的小红书<b>关键词搜索页</b>，实景和最新人流看那里。关键词搜索比带 token 的笔记直链耐用，不会过期。车程为常态路况估算，国庆实际会浮动；航班班次、房价、省博放票与开放时间、地铁末班车均以出行当天官方信息为准。</p>
+  </section>
+
+</main>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true">
+  <button class="lb-close" id="lb-close" aria-label="关闭">✕</button>
+  <button class="lb-prev" id="lb-prev" aria-label="上一张">‹</button>
+  <button class="lb-next" id="lb-next" aria-label="下一张">›</button>
+  <figure>
+    <img id="lb-img" alt="" />
+    <figcaption>
+      <span id="lb-title"></span>
+      <a id="lb-link" href="#" target="_blank" rel="noopener">在小红书搜这个点位 ↗</a>
+    </figcaption>
+  </figure>
+  <div class="lb-count" id="lb-count"></div>
+</div>
+
+<script>
+(function(){
+  var shots = Array.prototype.slice.call(document.querySelectorAll('.shot'));
+  var lb = document.getElementById('lb');
+  var lbImg = document.getElementById('lb-img');
+  var lbTitle = document.getElementById('lb-title');
+  var lbLink = document.getElementById('lb-link');
+  var lbCount = document.getElementById('lb-count');
+  var idx = -1;
+
+  function show(i){
+    if(i < 0) i = shots.length - 1;
+    if(i >= shots.length) i = 0;
+    idx = i;
+    var s = shots[i];
+    lbImg.src = s.querySelector('img').src;
+    lbTitle.textContent = s.dataset.title || '';
+    lbLink.href = s.dataset.link;
+    lbCount.textContent = (i + 1) + ' / ' + shots.length;
+    lb.classList.add('on');
+    document.body.style.overflow = 'hidden';
+  }
+  function hide(){
+    lb.classList.remove('on');
+    document.body.style.overflow = '';
+    lbImg.src = '';
+  }
+
+  shots.forEach(function(s, i){
+    s.addEventListener('click', function(e){
+      if(e.target.closest('.cap-l')) return;
+      e.preventDefault();
+      show(i);
+    });
+  });
+  document.getElementById('lb-close').addEventListener('click', hide);
+  document.getElementById('lb-prev').addEventListener('click', function(){ show(idx - 1); });
+  document.getElementById('lb-next').addEventListener('click', function(){ show(idx + 1); });
+  lb.addEventListener('click', function(e){ if(e.target === lb) hide(); });
+  document.addEventListener('keydown', function(e){
+    if(!lb.classList.contains('on')) return;
+    if(e.key === 'Escape') hide();
+    if(e.key === 'ArrowLeft') show(idx - 1);
+    if(e.key === 'ArrowRight') show(idx + 1);
+  });
+
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { threshold: 0.05 });
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+})();
+</script>
+</body>
+</html>
